@@ -1,0 +1,18 @@
+
+{
+  "schema_version": "v1",
+  "name_for_human": "Phage Review Assistant",
+  "name_for_model": "phage_review_assistant",
+  "description_for_human": "Analyze research papers using clustering and GPT summarization.",
+  "description_for_model": "Upload academic papers, cluster them by theme, and generate summaries.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:8080/openapi.yaml"
+  },
+  "logo_url": "http://localhost:8080/logo.png",
+  "contact_email": "support@phagereview.ai",
+  "legal_info_url": "http://phagereview.ai/legal"
+}

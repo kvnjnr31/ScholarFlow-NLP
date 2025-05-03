@@ -1,0 +1,1133 @@
+[
+  {
+    "id": "e35e34b9-5bf2-3f5d-b577-ca3dd3c04cad",
+    "title": "BacSim, a simulator for individual-based modelling of bacterial colony growth",
+    "authors": [
+      {
+        "first_name": "Jan-Ulrich",
+        "last_name": "Kreft"
+      },
+      {
+        "first_name": "Ginger",
+        "last_name": "Booth2"
+      },
+      {
+        "first_name": "Julian W T",
+        "last_name": "Wimpenny '"
+      }
+    ],
+    "abstract": "The generic, quantitative, spatially explicit, individual-based model BacSim was developed to simulate growth and behaviour of bacteria. The potential of this approach is in relating the properties of microscopic entities -cells -to the properties of macroscopic, complex systems such as biofilms. Here, the growth of a single Escherichia coli cell into a colony was studied. The object-oriented program BacSim is an extension of Gecko, an ecosystem dynamics model which uses the Swarm toolkit for multi-agent simulations. The model describes bacterial properties including substrate uptake, metabolism, maintenance, cell division and death a t the individual cell level. With the aim of making the model easily applicable to various bacteria under different conditions, the model uses as f e w as eight readily obtainable parameters which can be randomly varied. For substrate diffusion, a two-dimensional diffusion lattice is used. For growth-rate-dependent cell size variation, a conceptual model of cell division proposed by Donachie was examined. A mechanistic version of the Donachie model led to unbalanced growth at higher growth rates, whereas including a minimum period between subsequent replication initiations ensured balanced growth only if this period was unphysiologically long. Only a descriptive version of the Donachie model predicted cell sizes correctly. For maintenance, the Herbert model (constant specific rate of biomass consumption) and for substrate uptake, the Michaelis-Menten or the Best equations were implemented. The simulator output faithfully reproduced all input parameters. Growth characteristics when maintenance and uptake rates were proportional to either cell mass or surface area are compared. The authors propose a new generic measure of growth synchrony to quantify the loss of synchrony due to random variation of cell parameters or spatial heterogeneity. Variation of the maximal uptake rate completely desynchronizes the simulated culture but variation of the volume-at-division does not. A new measure for spatial heterogeneity is introduced: the standard deviation of substrate concentrations as experienced b y the cells. Spatial heterogeneity desynchronizes population growth by subdividing the population into parts synchronously growing a t different rates. A t a high enough spatial heterogeneity, the population appears to grow completely asynchronously.",
+    "year": 2015,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "df6370d9-e3b7-35c3-98d8-55e793e06c6d",
+    "title": "Dimensions of Escherichia coli at Various Growth Rates: Model for Envelope Growth",
+    "authors": [
+      {
+        "first_name": "0",
+        "last_name": "Pierucci"
+      }
+    ],
+    "abstract": "The duplication of Escherichia coli B/r is described based on two independent sequences, the replication of the genome and the growth of the envelope. It is proposed that (i) new envelope growth zones are activated coincident with the initiation of new rounds of chromosome replication; (ii) each zone is active in envelope synthesis from the time of its inauguration to the division which follows the completion of the round of chromosome replication (that is, for C + D min); and (iii) the rate of envelope synthesis at each site is constant, independent of the growth rate. Measurements of the surface areas of two E. coli B/r substrains growing at a variety of rates and during nutritional transitions are consistent with the predictions of the model. A model for the control of the duplication process of a bacterial cell has to take into ac-count (i) the pattem of chromosome replication during the division cycle and the DNA content of cells growing at various rates; (ii) cellular dimensions; and (iii) chromosome replication, cell division kinetics, and dimensional changes during transitions between two different growth rates. In Escherichia coli B/r, the pattem of chromosome replication at a variety of growth rates, and during shifts between various growth rates, has been explained by assuming that the time for preparation for initiation of a round of chromosome replication equals the doubling time of cultures in steady-state growth (4, 13, 14, 24, 25; C. E. Helnstetter, 0. Pierucci, M. Wein-berger, M. Holmes, and M. S. Tang, in L. N. Omston and J. R. Sokatch [ed.], The Bacteria, in press) and that division follows C + D min after the inauguration of a round of chromosome replication (2, 3, 5, 7, 17). The dimensions of bacterial cells have been accounted for by models for regulation of surface growth (27, 30; M. J. Case and A. G. Marr, Abstr. Annu. Meet. Am. Soc. Microbiol. 1976, I97, p. 127) or cell elongation (6, 8, 22, 23, 28, 34, 35). Chromosome replication and envelope growth may be coor-dinated through the timing of particular events occurring in the cell division cycle. Based on the",
+    "year": 1978,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "4ba97646-bb61-31d3-a42a-e8500a583762",
+    "title": "Bacterial Growth",
+    "authors": [
+      {
+        "first_name": "H L",
+        "last_name": "Smith"
+      }
+    ],
+    "abstract": "Bacteria are the dominant form of life on the planet. There are 10 5 cells in a milliliter of seawater, or on a square centimeter of our skin. There are ten times as many bacterial cells on our skin and in our large intestine as cells in our own body. We are nothing but a source of sustenance for bacteria. Humans have learned to harness bacteria and other microbes to produce products such as human insulin by genetically engineering. It is now easy to insert the human gene for insulin into bacteria and let them produce it in large industrial fermenters. So it is important to understand bacterial growth. A \" full-grown mother \" bacterium typically divides into two equal-size daughter cells each of half its mother cells size. Thus, each daughter cell must double in size before it too can divide. The growth of bacteria has been the subject of much study over the cen-turies, initially stimulated by bread, beer and wine making. See the reference works [1, 2, 5, 6, 7] for more recent scientific surveys. The simplest model is introduced in our calculus texts. If N (t) is the size (e.g. weight in grams) of the bacterial population at time t, then the Malthusian model of exponential growth is given by dN dt = rN together with some initial conditions N (0) = N 0 . Parameter r > 0 is called the growth rate and must be measured. The solution N (t) = N 0 e 1 has the rather unrealistic feature of getting larger without bound as t in-creases. Basically, the model ignores that bacteria require resources to grow and that these resources are finite. The doubling time T for the bacteria is readily computed from 2N 0 = N 0 e rT leading to T = ln(2)/r. (1) T , being easy to measure in the lab, allows computation of r. Exponential growth may be reasonable over short times but cannot continue indefinitely.",
+    "year": "",
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "cd365ceb-04a0-3201-bb6f-1b39b4d22264",
+    "title": "Impact of bacteria motility in the encounter rates with bacteriophage in mucus",
+    "authors": [
+      {
+        "first_name": "K.L.",
+        "last_name": "Joiner"
+      },
+      {
+        "first_name": "A.",
+        "last_name": "Baljon"
+      },
+      {
+        "first_name": "J.",
+        "last_name": "Barr"
+      },
+      {
+        "first_name": "F.",
+        "last_name": "Rohwer"
+      },
+      {
+        "first_name": "A.",
+        "last_name": "Luque"
+      }
+    ],
+    "abstract": "\u00a9 2019, The Author(s). Bacteriophages\u2014or phages\u2014are viruses that infect bacteria and are present in large concentrations in the mucosa that cover the internal organs of animals. Immunoglobulin (Ig) domains on the phage surface interact with mucin molecules, and this has been attributed to an increase in the encounter rates of phage with bacteria in mucus. However, the physical mechanism behind this phenomenon remains unclear. A continuous time random walk (CTRW) model simulating the diffusion due to mucin-T4 phage interactions was developed and calibrated to empirical data. A Langevin stochastic method for Escherichia coli (E. coli) run-and-tumble motility was combined with the phage CTRW model to describe phage-bacteria encounter rates in mucus for different mucus concentrations. Contrary to previous theoretical analyses, the emergent subdiffusion of T4 in mucus did not enhance the encounter rate of T4 against bacteria. Instead,\u00a0for static E. coli, the diffusive T4 mutant lacking Ig domains outperformed the subdiffusive T4 wild type. E. coli\u2019s motility dominated the encounter rates with both phage types in mucus. It is proposed, that the local fluid-flow generated by E. coli\u2019s motility combined with T4 interacting with mucins may be the mechanism for increasing the encounter rates between the T4 phage and E. coli bacteria.",
+    "year": 2019,
+    "link": "",
+    "file_attached": false
+  },
+  {
+    "id": "fb30c363-c073-3b16-be7a-eadb335163be",
+    "title": "Life in Our Phage World : a centennial field guide to the Earth's most diverse inhabitants",
+    "authors": [
+      {
+        "first_name": "Forest",
+        "last_name": "Rohwer"
+      },
+      {
+        "first_name": "Merry",
+        "last_name": "Youle"
+      },
+      {
+        "first_name": "Heather",
+        "last_name": "Maughan"
+      },
+      {
+        "first_name": "Nao",
+        "last_name": "Hisakawa"
+      },
+      {
+        "first_name": "Leah L.",
+        "last_name": "Pante\u0301a"
+      },
+      {
+        "first_name": "Benjamin",
+        "last_name": "Darby"
+      }
+    ],
+    "abstract": "First edition. Welcome to the Phage World -- On the prowl -- Entry -- Takeover -- Replication -- Assembly -- Escape -- Concluding thoughts and a Look ahead.",
+    "year": "",
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "5393b98d-b470-3b9d-9dbc-4422d6b94065",
+    "title": "Viral dynamics: a model of the effects of size, shape, motion and abundance of single-celled planktonic organisms and other particles",
+    "authors": [
+      {
+        "first_name": "Alexander G",
+        "last_name": "Murray"
+      },
+      {
+        "first_name": "George A",
+        "last_name": "Jackson"
+      }
+    ],
+    "abstract": "The transport of aquatic viruses to particles can be described in terms of diffusive transport from solution. Such transport is influenced by motion of the water relative to the particle. Because transport rate is determined purely by physical factors it is independent of whether the particle is a host or non-host organism. The low viral diffusivity relative to that for dissolved nutrients makes transport enhancement from organism swimming more important for viruses. The virus contact rate with bacteria is relatively unaffected by such motions because of small bacterial sizes. Transport rates for phytoplankton and protozoa can increase over an order of magnitude when swimming motions are considered. Although larger organisms have much higher transport rates per individual, their far lower concentrations In sea water should make small organisms the preferred targets for viruses. Rates of host-virus interactions in culture are closely related to predictions from transport theory. There is a fairly close relationship between bacterial populations and virus disappearance rates in the marine environment, suggesting that non-host organisms are a major cause of viral mortality at the higher ionic strengths typical of sea water. Other factors, such as UV radiation, must also be included when estimating viral mortality in seacvater.",
+    "year": 1992,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "524639a6-ba98-3afc-9653-1e087becc2bb",
+    "title": "Modeling to Contain Pandemics",
+    "authors": [],
+    "abstract": "No abstract found",
+    "year": "",
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "038eb045-f3b4-3a45-aa44-4fc7b8f789ca",
+    "title": "BacSim, a simulator for individual-based modelling of bacterial colony growth",
+    "authors": [
+      {
+        "first_name": "Jan-Ulrich",
+        "last_name": "Kreft"
+      },
+      {
+        "first_name": "Ginger",
+        "last_name": "Booth2"
+      },
+      {
+        "first_name": "Julian W T",
+        "last_name": "Wimpenny'"
+      }
+    ],
+    "abstract": "The generic, quantitative, spatially explicit, individual-based model BacSim was developed to simulate growth and behaviour of bacteria. The potential of this approach is in relating the properties of microscopic entities-cells-to the properties of macroscopic, complex systems such as biofilms. Here, the growth of a single Escherichia coli cell into a colony was studied. The object-oriented program BacSim is an extension of Gecko, an ecosystem dynamics model which uses the Swarm toolkit for multi-agent simulations. The model describes bacterial properties including substrate uptake, metabolism, maintenance, cell division and death a t the individual cell level. With the aim of making the model easily applicable to various bacteria under different conditions, the model uses as f e w as eight readily obtainable parameters which can be randomly varied. For substrate diffusion, a two-dimensional diffusion lattice is used. For growth-rate-dependent cell size variation, a conceptual model of cell division proposed by Donachie was examined. A mechanistic version of the Donachie model led to unbalanced growth at higher growth rates, whereas including a minimum period between subsequent replication initiations ensured balanced growth only if this period was unphysiologically long. Only a descriptive version of the Donachie model predicted cell sizes correctly. For maintenance, the Herbert model (constant specific rate of biomass consumption) and for substrate uptake, the Michaelis-Menten or the Best equations were implemented. The simulator output faithfully reproduced all input parameters. Growth characteristics when maintenance and uptake rates were proportional to either cell mass or surface area are compared. The authors propose a new generic measure of growth synchrony to quantify the loss of synchrony due to random variation of cell parameters or spatial heterogeneity. Variation of the maximal uptake rate completely desynchronizes the simulated culture but variation of the volume-at-division does not. A new measure for spatial heterogeneity is introduced: the standard deviation of substrate concentrations as experienced b y the cells. Spatial heterogeneity desynchronizes population growth by subdividing the population into parts synchronously growing a t different rates. A t a high enough spatial heterogeneity, the population appears to grow completely asynchronously.",
+    "year": 2015,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "72be2547-1290-3946-b1ed-c737e52c740a",
+    "title": "Modeling to Contain Pandemics",
+    "authors": [],
+    "abstract": "No abstract found",
+    "year": "",
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "a76e7b66-f557-3674-a8b8-e7dd4bf5a8bf",
+    "title": "Resonance effects indicate a radical-pair mechanism for avian magnetic compass",
+    "authors": [
+      {
+        "first_name": "Thorsten",
+        "last_name": "Ritz"
+      },
+      {
+        "first_name": "Peter",
+        "last_name": "Thalau"
+      },
+      {
+        "first_name": "John B.",
+        "last_name": "Phillips"
+      },
+      {
+        "first_name": "Roswitha",
+        "last_name": "Wiltschko"
+      },
+      {
+        "first_name": "Wolfgang",
+        "last_name": "Wiltschko"
+      }
+    ],
+    "abstract": "Migratory birds are known to use the geomagnetic field as a source of compass information. There are two competing hypotheses for the primary process underlying the avian magnetic compass, one involving magnetite, the other a magnetically sensitive chemical reaction. Here we show that oscillating magnetic fields disrupt the magnetic orientation behaviour of migratory birds. Robins were disoriented when exposed to a vertically aligned broadband (0.1-10 MHz) or a single-frequency (7-MHz) field in addition to the geomagnetic field. Moreover, in the 7-MHz oscillating field, this effect depended on the angle between the oscillating and the geomagnetic fields. The birds exhibited seasonally appropriate migratory orientation when the oscillating field was parallel to the geomagnetic field, but were disoriented when it was presented at a 24\u00b0 or 48\u00b0 angle. These results are consistent with a resonance effect on singlet-triplet transitions and suggest a magnetic compass based on a radical-pair mechanism.",
+    "year": 2004,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "df9c16b6-2b1c-367d-88d1-45cc4cb47873",
+    "title": "BacSim, a simulator for individual-based modelling of bacterial colony growth",
+    "authors": [
+      {
+        "first_name": "Jan-Ulrich",
+        "last_name": "Kreft"
+      },
+      {
+        "first_name": "Ginger",
+        "last_name": "Booth2"
+      },
+      {
+        "first_name": "Julian W T",
+        "last_name": "Wimpenny'"
+      }
+    ],
+    "abstract": "The generic, quantitative, spatially explicit, individual-based model BacSim was developed to simulate growth and behaviour of bacteria. The potential of this approach is in relating the properties of microscopic entities-cells-to the properties of macroscopic, complex systems such as biofilms. Here, the growth of a single Escherichia coli cell into a colony was studied. The object-oriented program BacSim is an extension of Gecko, an ecosystem dynamics model which uses the Swarm toolkit for multi-agent simulations. The model describes bacterial properties including substrate uptake, metabolism, maintenance, cell division and death a t the individual cell level. With the aim of making the model easily applicable to various bacteria under different conditions, the model uses as f e w as eight readily obtainable parameters which can be randomly varied. For substrate diffusion, a two-dimensional diffusion lattice is used. For growth-rate-dependent cell size variation, a conceptual model of cell division proposed by Donachie was examined. A mechanistic version of the Donachie model led to unbalanced growth at higher growth rates, whereas including a minimum period between subsequent replication initiations ensured balanced growth only if this period was unphysiologically long. Only a descriptive version of the Donachie model predicted cell sizes correctly. For maintenance, the Herbert model (constant specific rate of biomass consumption) and for substrate uptake, the Michaelis-Menten or the Best equations were implemented. The simulator output faithfully reproduced all input parameters. Growth characteristics when maintenance and uptake rates were proportional to either cell mass or surface area are compared. The authors propose a new generic measure of growth synchrony to quantify the loss of synchrony due to random variation of cell parameters or spatial heterogeneity. Variation of the maximal uptake rate completely desynchronizes the simulated culture but variation of the volume-at-division does not. A new measure for spatial heterogeneity is introduced: the standard deviation of substrate concentrations as experienced b y the cells. Spatial heterogeneity desynchronizes population growth by subdividing the population into parts synchronously growing a t different rates. A t a high enough spatial heterogeneity, the population appears to grow completely asynchronously.",
+    "year": 2015,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "5ddb1be6-16de-31ea-a213-2946bf3b4388",
+    "title": "An agent-based modeling approach applied to the spread of cholera",
+    "authors": [
+      {
+        "first_name": "Andrew T.",
+        "last_name": "Crooks"
+      },
+      {
+        "first_name": "Atesmachew B.",
+        "last_name": "Hailegiorgis"
+      }
+    ],
+    "abstract": "Cholera is an intestinal disease and is characterized by diarrhea and severe dehydration. While cholera has mainly been eliminated in regions that can provide clean water, adequate hygiene and proper sanitation; it remains a constant threat in many parts of Africa and Asia. Within this paper, we develop an agent-based model that explores the spread of cholera in the Dadaab refugee camp in Kenya. Poor sanitation and housing conditions contribute to frequent incidents of cholera outbreaks within this camp. We model the spread of cholera by explicitly representing the interaction between humans and their environment, and the spread of the epidemic using a Susceptible-Exposed-Infected-Recovered model. Results from the model show that the spread of cholera grows radially from contaminated water sources and seasonal rains can cause the emergence of cholera outbreaks. This modeling effort highlights the potential of agent-based modeling to explore the spread of cholera in a humanitarian context.",
+    "year": 2014,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "62936341-bbb0-3d96-8231-a416a29ab6de",
+    "title": "A standard protocol for describing individual-based and agent-based models",
+    "authors": [
+      {
+        "first_name": "Volker",
+        "last_name": "Grimm"
+      },
+      {
+        "first_name": "Uta",
+        "last_name": "Berger"
+      },
+      {
+        "first_name": "Finn",
+        "last_name": "Bastiansen"
+      },
+      {
+        "first_name": "Sigrunn",
+        "last_name": "Eliassen"
+      },
+      {
+        "first_name": "Vincent",
+        "last_name": "Ginot"
+      },
+      {
+        "first_name": "Jarl",
+        "last_name": "Giske"
+      },
+      {
+        "first_name": "John",
+        "last_name": "Goss-Custard"
+      },
+      {
+        "first_name": "Tamara",
+        "last_name": "Grand"
+      },
+      {
+        "first_name": "Simone K.",
+        "last_name": "Heinz"
+      },
+      {
+        "first_name": "Geir",
+        "last_name": "Huse"
+      },
+      {
+        "first_name": "Andreas",
+        "last_name": "Huth"
+      },
+      {
+        "first_name": "Jane U.",
+        "last_name": "Jepsen"
+      },
+      {
+        "first_name": "Christian",
+        "last_name": "J\u00f8rgensen"
+      },
+      {
+        "first_name": "Wolf M.",
+        "last_name": "Mooij"
+      },
+      {
+        "first_name": "Birgit",
+        "last_name": "M\u00fcller"
+      },
+      {
+        "first_name": "Guy",
+        "last_name": "Pe'er"
+      },
+      {
+        "first_name": "Cyril",
+        "last_name": "Piou"
+      },
+      {
+        "first_name": "Steven F.",
+        "last_name": "Railsback"
+      },
+      {
+        "first_name": "Andrew M.",
+        "last_name": "Robbins"
+      },
+      {
+        "first_name": "Martha M.",
+        "last_name": "Robbins"
+      },
+      {
+        "first_name": "Eva",
+        "last_name": "Rossmanith"
+      },
+      {
+        "first_name": "Nadja",
+        "last_name": "R\u00fcger"
+      },
+      {
+        "first_name": "Espen",
+        "last_name": "Strand"
+      },
+      {
+        "first_name": "Sami",
+        "last_name": "Souissi"
+      },
+      {
+        "first_name": "Richard A.",
+        "last_name": "Stillman"
+      },
+      {
+        "first_name": "Rune",
+        "last_name": "Vab\u00f8"
+      },
+      {
+        "first_name": "Ute",
+        "last_name": "Visser"
+      },
+      {
+        "first_name": "Donald L.",
+        "last_name": "DeAngelis"
+      }
+    ],
+    "abstract": "Simulation models that describe autonomous individual organisms (individual based models, IBM) or agents (agent-based models, ABM) have become a widely used tool, not only in ecology, but also in many other disciplines dealing with complex systems made up of autonomous entities. However, there is no standard protocol for describing such simulation models, which can make them difficult to understand and to duplicate. This paper presents a proposed standard protocol, ODD, for describing IBMs and ABMs, developed and tested by 28 modellers who cover a wide range of fields within ecology. This protocol consists of three blocks (Overview, Design concepts, and Details), which are subdivided into seven elements: Purpose, State variables and scales, Process overview and scheduling, Design concepts, Initialization, Input, and Submodels. We explain which aspects of a model should be described in each element, and we present an example to illustrate the protocol in use. In addition, 19 examples are available in an Online Appendix. We consider ODD as a first step for establishing a more detailed common format of the description of IBMs and ABMs. Once initiated, the protocol will hopefully evolve as it becomes used by a sufficiently large proportion of modellers. \u00a9 2006 Elsevier B.V. All rights reserved.",
+    "year": 2006,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "0a6c67f4-2620-3c69-b234-4cd32d8c2a40",
+    "title": "Individual-based modelling: An essential tool for microbiology",
+    "authors": [
+      {
+        "first_name": "Jordi",
+        "last_name": "Ferrer"
+      },
+      {
+        "first_name": "Clara",
+        "last_name": "Prats"
+      },
+      {
+        "first_name": "Daniel",
+        "last_name": "L\u00f3pez"
+      }
+    ],
+    "abstract": "Micro-organisms play a central role in every ecosystem and in the global biomass cycle. They are strongly involved in many fields of human interest, from medicine to the food industry and waste control. Nevertheless, most micro-organisms remain almost unknown, and nearly 99% of them have not yet been successfully cultured in vitro. Therefore, new approaches and new tools must be developed in order to understand the collective behaviour of microbial communities in any natural or artificial setting. In particular, theoretical and practical methodologies to deal with such systems at a mesoscopic level of description (covering the range from 100 to 108 cells) are required. Individual-based modelling (IBM) has become a widely used tool for describing complex systems made up of autonomous entities, such as ecosystems and social networks. Individual-based models (IBMs) provide some advantages over the traditional whole-population models: (a) they are bottom-up approaches, so they describe the behaviour of a system as a whole by establishing procedural rules for the individuals and for their interactions, and thus allow more realistic assumptions for the model of the individuals than population models do; (b) they permit the introduction of randomness and individual variability, so they can reproduce the diversity found in real systems; and (c) they can account for individual adaptive behaviour to their environmental conditions, so the evolution of the whole system arises from the dynamics that govern individuals in their pursuit of optimal fitness. However, they also present some drawbacks: they lack the clarity of continuous models and may easily become rambling, which makes them difficult to analyse and communicate. All in all, IBMs supply a holistic description of microbial systems and their emerging properties. They are specifically appropriate to deal with microbial communities in non-steady states, and spatially explicit IBMs are particularly appropriate to study laboratory and natural microbiological systems with spatial heterogeneity. In this paper, we review IBM methodology applied to microbiology. We also present some results obtained from the application of Individual Discrete Simulations, an IBM of ours, to the study of bacterial communities, yeast cultures and Plasmodium falciparum-infected erythrocytes in vitro cultures of Plasmodium falciparum-infected erythrocytes. \u00a9 2008 Springer Science+Business Media B.V.",
+    "year": 2008,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "fc688595-0d33-3828-ab3b-66416103e664",
+    "title": "Integrated PK-PD and agent-based modeling in oncology",
+    "authors": [
+      {
+        "first_name": "Zhihui",
+        "last_name": "Wang"
+      },
+      {
+        "first_name": "Joseph D.",
+        "last_name": "Butner"
+      },
+      {
+        "first_name": "Vittorio",
+        "last_name": "Cristini"
+      },
+      {
+        "first_name": "Thomas S.",
+        "last_name": "Deisboeck"
+      }
+    ],
+    "abstract": "Mathematical modeling has become a valuable tool that strives to complement conventional biomedical research modalities in order to predict experimental outcome, generate new medical hypotheses, and optimize clinical therapies. Two specific approaches, pharmacokinetic-pharmacodynamic (PK-PD) modeling, and agent-based modeling (ABM), have been widely applied in cancer research. While they have made important contributions on their own (e.g., PK-PD in examining chemotherapy drug efficacy and resistance, and ABM in describing and predicting tumor growth and metastasis), only a few groups have started to combine both approaches together in an effort to gain more insights into the details of drug dynamics and the resulting impact on tumor growth. In this review, we focus our discussion on some of the most recent modeling studies building on a combined PK-PD and ABM approach that have generated experimentally testable hypotheses. Some future directions are also discussed.",
+    "year": 2015,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "37def6b4-5b20-39ad-b7b9-0b8e86daf97a",
+    "title": "The Role of the Mucus Barrier in Digestion",
+    "authors": [
+      {
+        "first_name": "A. R.",
+        "last_name": "MacKie"
+      },
+      {
+        "first_name": "A. N.",
+        "last_name": "Round"
+      },
+      {
+        "first_name": "N. M.",
+        "last_name": "Rigby"
+      },
+      {
+        "first_name": "A.",
+        "last_name": "MacIerzanka"
+      }
+    ],
+    "abstract": "Mucus forms a protective layer across a variety of epithelial surfaces. In the gastrointestinal (GI) tract, the barrier has to permit the uptake of nutrients, while excluding potential hazards, such as pathogenic bacteria. In this short review article, we look at recent literature on the structure, location, and properties of the mammalian intestinal secreted mucins and the mucus layer they form over a wide range of length scales. In particular, we look at the structure of the gel-forming glycoprotein MUC2, the primary intestinal secreted mucin, and the influence this has on the properties of the mucus layer. We show that, even at the level of the protein backbone, MUC2 is highly heterogeneous and that this is reflected in the networks it forms. It is evident that a combination of charge and pore size determines what can diffuse through the layer to the underlying gut epithelium. This information is important for the targeted delivery of bioactive molecules, including nutrients and pharmaceuticals, and for understanding how GI health is maintained. \u00a9 2012 Springer Science+Business Media, LLC.",
+    "year": 2012,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "ca8fd6e9-153d-3ad7-944a-703f5b395cab",
+    "title": "Computational and experimental study of chemotaxis of an ensemble of bacteria attached to a microbead",
+    "authors": [
+      {
+        "first_name": "Mahama A.",
+        "last_name": "Traor\u00e9"
+      },
+      {
+        "first_name": "Ali",
+        "last_name": "Sahari"
+      },
+      {
+        "first_name": "Bahareh",
+        "last_name": "Behkam"
+      }
+    ],
+    "abstract": "Micro-objects propelled by whole cell actuators, such as flagellated bacteria, are being increasingly studied and considered for a wide variety of applications. In this work we present theoretical and experimental investigations of chemotactic motility of a 10 \u03bcm diameter microbead propelled by an ensemble of attached flagellated bacteria. The stochastic model presented here encompasses the behavior of each individual bacterium attached to the microbead in a spatiotemporally varying chemoattractant field. The computational model shows that in a chemotactic environment, the ensemble of bacteria, although constrained, propel the bead in a chemotactic manner with a 67% enhancement in displacement to distance ratio (defined as directionality) compared to nonchemotactic propulsion. The simulation results are validated experimentally. Close agreement between theory and experiments demonstrates the possibility of using the presented model as a predictive tool for other similar biohybrid systems. \u00a9 2011 American Physical Society.",
+    "year": 2011,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "d1ba89b1-8d72-325e-a9df-7845c327ae42",
+    "title": "Cell size control in bacteria",
+    "authors": [
+      {
+        "first_name": "An Chun",
+        "last_name": "Chien"
+      },
+      {
+        "first_name": "Norbert S.",
+        "last_name": "Hill"
+      },
+      {
+        "first_name": "Petra Anne",
+        "last_name": "Levin"
+      }
+    ],
+    "abstract": "Like eukaryotes, bacteria must coordinate division with growth to ensure cells are the appropriate size for a given environmental condition or developmental fate. As single-celled organisms, nutrient availability is one of the strongest influences on bacterial cell size. Classic physiological experiments conducted over four decades ago first demonstrated that cell size is directly correlated with nutrient source and growth rate in the Gram-negative bacterium Salmonella typhimurium. This observation subsequently served as the basis for studies revealing a role for cell size in cell cycle progression in a closely related organism, Escherichia coli. More recently, the development of powerful genetic, molecular, and imaging tools has allowed us to identify and characterize the nutrient-dependent pathway responsible for coordinating cell division and cell size with growth rate in the Gram-positive model organism Bacillus subtilis. Here, we discuss the role of cell size in bacterial growth and development and propose a broadly applicable model for cell size control in this important and highly divergent domain of life. \u00a9 2012 Elsevier Ltd.",
+    "year": 2012,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "8f3830a3-e7f0-3397-b457-595972651d38",
+    "title": "Modelling and analysis of bacterial tracks suggest an active reorientation mechanism in Rhodobacter sphaeroides",
+    "authors": [
+      {
+        "first_name": "Gabriel",
+        "last_name": "Rosser"
+      },
+      {
+        "first_name": "Ruth E.",
+        "last_name": "Baker"
+      },
+      {
+        "first_name": "Judith P.",
+        "last_name": "Armitage"
+      },
+      {
+        "first_name": "Alexander G.",
+        "last_name": "Fletcher"
+      }
+    ],
+    "abstract": "Most free-swimming bacteria move in approximately straight lines, interspersed with randomreorientation phases.Akey open question concerns varyingmechanisms by which reorientation occurs. We combine mathematical modelling with analysis of a large tracking dataset to study the poorly understood reorientation mechanism in the monoflagellate species Rhodobacter sphaeroides. The flagellum on this species rotates counterclockwise to propel the bacterium, periodically ceasing rotation to enable reorientation. When rotation restarts the cell body usually points in a new direction. It has been assumed that the new direction is simply the result of Brownian rotation.We consider three variants of a self-propelled particle model of bacterial motility. The first considers rotational diffusion only, corresponding to a non-chemotactic mutant strain. Two further models incorporate stochastic reorientations, describing 'run-andtumble'motility. We derive expressions for key summary statistics and simulate each model using a stochastic computational algorithm. We also discuss the effect of cell geometry on rotational diffusion.Working with a previously published tracking dataset, we compare predictions of the models with data on individual stopping events in R. sphaeroides. This provides strong evidence that this species undergoes some form of active reorientation rather than simple reorientation by Brownian rotation. \u00a9 2014 The Author(s) Published by the Royal Society.",
+    "year": 2014,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "9f9b816f-ce9b-3925-aa8a-35913f784154",
+    "title": "Potential Significance of Lysogeny to Bacteriophage Production and Bacterial Mortality in Coastal Waters of the Gulf of Mexico",
+    "authors": [
+      {
+        "first_name": "Markus G",
+        "last_name": "Weinbauer"
+      },
+      {
+        "first_name": "Curtis A",
+        "last_name": "Suttle"
+      }
+    ],
+    "abstract": "The potential effect that induction of lysogenic bacteria has on bacteriophage production and bacterial mortality in coastal waters was investigated, and we present estimates for the percentage of lysogenic cells in a natural aquatic bacterial community. Various concentrations of mitomycin C and exposure times to UV C radiation (UV-C) (wavelength of 254 nm) were used to induce the lytic cycle in lysogenic cells of natural communities of marine bacteria. UV-C treatment occasionally resulted in phage production, but phage production induced by UV-C was always less than that caused by the addition of mitomycin C. There was no evidence that high growth rates of bacteria resulted in lysogenic phage production. The burst size of cells induced by mitomycin C was determined by transmission electron microscopy and ranged from 11 to 45. Dividing the induced phage production by the burst size provided an estimate of the number of lysogenic bacterial cells, which ranged from 0.07 to 4.4% (average, 1.5%) of the total bacterial population. The percentages of lysogenic bacteria that were induced by mitomycin C were similar for samples collected nearshore from the pier of the Marine Science Institute (chlorophyll a, 1.6 to 2.9 g liter 1) and in relatively oligotrophic water (chlorophyll a, 0.2 to 0.9 g liter 1) collected 25 to 100 km offshore. By using a steady-state model, if all lysogenic bacteria were induced simultaneously, 0.14 to 8.8% (average, 3.0%) of the total bacterial mortality would result from induction of lysogenic cells. If mitomycin C induces all or the majority of lysogenized cells, our results imply that lysogenic phage production is generally not an important source of phage production or bacterial mortality in the coastal waters of the western Gulf of Mexico.",
+    "year": 1996,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "94943654-991a-3ce8-807e-5c5efb7bcc0e",
+    "title": "Simulation of bacterial chemotaxis by the random run and tumble model",
+    "authors": [
+      {
+        "first_name": "Charles C.N.",
+        "last_name": "Wang"
+      },
+      {
+        "first_name": "Ka Lok",
+        "last_name": "Ng"
+      },
+      {
+        "first_name": "Yu Ching",
+        "last_name": "Chen"
+      },
+      {
+        "first_name": "Phillip C.Y.",
+        "last_name": "Sheu"
+      },
+      {
+        "first_name": "Jeffrey J.P.",
+        "last_name": "Tsai"
+      }
+    ],
+    "abstract": "In this paper, the movement of bacteria, i.e. E. coli, is simulated based on the run and tumble model. The random walk parameters, such as the speed, tumbling frequency, run duration, and the turn angle between two successive runs were taken from experimental measurements, and use them to simulate the bacteria movement in cases of three different uniform chemical concentration distributions. The motility coefficient is computed to characterize the migration responses. Furthermore, a case of chemical attractant gradient distribution in the environment is designed to validate the run and tumble model. It is found that bacteria move with higher motility coefficient in higher chemical concentrations. Simulation results suggested that bacterial run and tumble model can be used to describe real bacteria movement. \u00a9 2011 IEEE.",
+    "year": 2011,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "11e16735-09c0-3fcf-9d33-d98aefc2378e",
+    "title": "Bacterial Growth",
+    "authors": [
+      {
+        "first_name": "H L",
+        "last_name": "Smith"
+      }
+    ],
+    "abstract": "Bacteria are the dominant form of life on the planet. There are 10 5 cells in a milliliter of seawater, or on a square centimeter of our skin. There are ten times as many bacterial cells on our skin and in our large intestine as cells in our own body. We are nothing but a source of sustenance for bacteria. Humans have learned to harness bacteria and other microbes to produce products such as human insulin by genetically engineering. It is now easy to insert the human gene for insulin into bacteria and let them produce it in large industrial fermenters. So it is important to understand bacterial growth. A \"full-grown mother\" bacterium typically divides into two equal-size daughter cells each of half its mother cells size. Thus, each daughter cell must double in size before it too can divide. The growth of bacteria has been the subject of much study over the centuries , initially stimulated by bread, beer and wine making. See the reference works [1, 2, 5, 6, 7] for more recent scientific surveys. The simplest model is introduced in our calculus texts. If N (t) is the size (e.g. weight in grams) of the bacterial population at time t, then the Malthusian model of exponential growth is given by dN dt = rN together with some initial conditions N (0) = N 0. Parameter r > 0 is called the growth rate and must be measured. The solution N (t) = N 0 e rt",
+    "year": "",
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "f980d5dc-7b7b-3dd0-854e-f759d338cd27",
+    "title": "WITH CHAPTERS BY",
+    "authors": [
+      {
+        "first_name": "Mark H",
+        "last_name": "Adams --"
+      },
+      {
+        "first_name": "E S",
+        "last_name": "Anderson"
+      },
+      {
+        "first_name": "E",
+        "last_name": "Kellenberger"
+      }
+    ],
+    "abstract": "No abstract found",
+    "year": "",
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "34eae4cb-6be1-3226-af01-d23f4ea8c6ee",
+    "title": "The influence of mucus microstructure and rheology in Helicobacter pylori infection",
+    "authors": [
+      {
+        "first_name": "Rama",
+        "last_name": "Bansil"
+      },
+      {
+        "first_name": "Jonathan P.",
+        "last_name": "Celli"
+      },
+      {
+        "first_name": "Joseph M.",
+        "last_name": "Hardcastle"
+      },
+      {
+        "first_name": "Bradley S.",
+        "last_name": "Turner"
+      }
+    ],
+    "abstract": "The bacterium Helicobacter pylori (H. pylori), has evolved to survive in the highly acidic environment of the stomach and colonize on the epithelial surface of the gastric mucosa. Its pathogenic effects are well known to cause gastritis, peptic ulcers, and gastric cancer. In order to infect the stomach and establish colonies on the mucus epithelial surface, the bacterium has to move across the gel-like gastric mucus lining of the stomach under acidic conditions. In this review we address the question of how the bacterium gets past the protective mucus barrier from a biophysical perspective. We begin by reviewing the molecular structure of gastric mucin and discuss the current state of understanding concerning mucin polymerization and low pH induced gelation. We then focus on the viscoelasticity of mucin in view of its relevance to the transport of particles and bacteria across mucus, the key first step in H. pylori infection. The second part of the review focuses on the motility of H. pylori in mucin solutions and gels, and how infection with H. pylori in turn impacts the viscoelastic properties of mucin. We present recent microscopic results tracking the motion of H. pylori in mucin solutions and gels. We then discuss how the biochemical strategy of urea hydrolysis required for survival in the acid is also relevant to the mechanism that enables flagella-driven swimming across the mucus gel layer. Other aspects of the influence of H. pylori infection such as, altering gastric mucin expression, its rate of production and its composition, and the influence of mucin on factors controlling H. pylori virulence and proliferation are briefly discussed with references to relevant literature. \u00a9 2013 Bansil, Celli, Hardcastle and Turner.",
+    "year": 2013,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "dca69255-348d-383d-bc59-a91e977b4cc7",
+    "title": "Berg-brown-1972",
+    "authors": [],
+    "abstract": "No abstract found",
+    "year": "",
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "4353f906-b54b-3538-8b61-025ed647331b",
+    "title": "Diss_Part_Dyn",
+    "authors": [],
+    "abstract": "No abstract found",
+    "year": "",
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "d91b777b-2746-34ac-9a64-6a67930f578b",
+    "title": "PHYSICS OF CHEMORECEPTION",
+    "authors": [
+      {
+        "first_name": "Howard C",
+        "last_name": "Berg"
+      },
+      {
+        "first_name": "Edward M",
+        "last_name": "Purcell"
+      }
+    ],
+    "abstract": "Statistical fluctuations limit the precision with which a microorganism can, in a given time T, determine the concentration of a chemoattractant in the surrounding medium. The best a cell can do is to monitor continually the state of occupation of receptors distributed over its surface. For nearly optimum performance only a small fraction of the surface need be specifically adsorbing. The probability that a molecule that has collided with the cell will find a receptor is Ns/(Ns + wa), if N receptors, each with a binding site of radius s, are evenly distributed over a cell of radius a. There is ample room for many independent systems of specific receptors. The adsorption rate for molecules of moderate size cannot be significantly enhanced by motion of the cell or by stirring of the medium by the cell. The least fractional error attainable in the determination of a concentration c is approximately (ThaD)-/2, where D is the diffusion constant of the attractant. The number of specific receptors needed to attain such precision is about a/s. Data on bacteriophage adsorption, bacterial chemotaxis, and chemotaxis in a cellular slime mold are evaluated. The chemotactic sensitivity of Escherichia coli approaches that of the cell of optimum design.",
+    "year": "",
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "4f06b409-f15d-3bd8-94ec-d3bb58b6c9bc",
+    "title": "Colloids dragged through a polymer solution: Experiment, theory, and simulation",
+    "authors": [
+      {
+        "first_name": "Christof",
+        "last_name": "Gutsche"
+      },
+      {
+        "first_name": "Friedrich",
+        "last_name": "Kremer"
+      },
+      {
+        "first_name": "Matthias",
+        "last_name": "Kr\u00fcger"
+      },
+      {
+        "first_name": "Markus",
+        "last_name": "Rauscher"
+      },
+      {
+        "first_name": "Rudolf",
+        "last_name": "Weeber"
+      },
+      {
+        "first_name": "Jens",
+        "last_name": "Harting"
+      }
+    ],
+    "abstract": "We present microrheological measurements of the drag force on colloids pulled through a solution of \u03bb -DNA (used here as a monodisperse model polymer) with an optical tweezer. The experiments show a drag force that is larger than expected from the Stokes formula and the independently measured viscosity of the DNA solution. We attribute this to the accumulation of DNA in front of the colloid and the reduced DNA density behind the colloid. This hypothesis is corroborated by a simple drift-diffusion model for the DNA molecules, which reproduces the experimental data surprisingly well, as well as by corresponding Brownian dynamics simulations. \u00a9 2008 American Institute of Physics.",
+    "year": 2008,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "acbcd388-3a2f-3182-a71d-68b21cad5983",
+    "title": "The application of biofilm science to the study and control of chronic bacterial infections",
+    "authors": [
+      {
+        "first_name": "William",
+        "last_name": "Costerton"
+      },
+      {
+        "first_name": "Richard",
+        "last_name": "Veeh"
+      },
+      {
+        "first_name": "Mark",
+        "last_name": "Shirtliff"
+      },
+      {
+        "first_name": "Mark",
+        "last_name": "Pasmore"
+      },
+      {
+        "first_name": "Christopher",
+        "last_name": "Post"
+      },
+      {
+        "first_name": "Garth",
+        "last_name": "Ehrlich"
+      }
+    ],
+    "abstract": "Unequivocal direct observations have established that the bacteria that cause device-related and other chronic infections grow in matrix-enclosed biofilms. The diagnostic and therapeutic strategies that have served us so well in the partial eradication of acute epidemic bacterial diseases have not yielded accurate data or favorable outcomes when applied to these biofilm diseases. We discuss the potential benefits of the application of the new methods and concepts developed by biofilm science and engineering to the clinical management of infectious diseases.",
+    "year": 2003,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "0e7fba56-ad33-3466-8daa-e742c8d0cb57",
+    "title": "Motile Behaviour of Bacteria",
+    "authors": [
+      {
+        "first_name": "Howard C",
+        "last_name": "Berg"
+      }
+    ],
+    "abstract": "No abstract found",
+    "year": 2000,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "e94bc1da-d300-3723-b643-448dbfebf055",
+    "title": "Dissipative particle dynamics simulation of flow around spheres and cylinders at finite Reynolds numbers",
+    "authors": [
+      {
+        "first_name": "Jae Mo",
+        "last_name": "Kim"
+      },
+      {
+        "first_name": "Ronald J.",
+        "last_name": "Phillips"
+      }
+    ],
+    "abstract": "Dissipative particle dynamics (DPD) is a method for simulating complex fluid flows and other, colloidal phenomena. It is a mesoscopic method, in that it does not rely on a continuum-level description of matter, but nor does it completely capture molecular-level detail. As such, it offers the possibility of capturing some degree of molecular-level detail, while conforming to continuum hydrodynamics at larger length scales. We have tested the applicability of DPD to finite-Reynolds-number flows by studying a series of model problems involving flow around spheres and cylinders. Our study is the first to consider explicitly the effect of finite inertia in DPD simulations. Both flow around immobile objects and the translation and rotation of mobile objects are considered. For our test problems, we show that under computationally feasible conditions DPD simulations are quantitatively accurate up to Reynolds numbers of 50\u2013100. Typically the physical cause of inaccuracies at higher Reynolds numbers is the onset of compressibility effects, which can be anticipated by making reference to a DPD Mach number. In addition, in our implementation of DPD, some new methods are introduced that result in the computation time scaling linearly with the number of DPD particles. It is also shown that improvements in accuracy can be realized by making use of the specular reflection boundary condition at solid\u2013fluid interfaces.",
+    "year": 2004,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "b650e186-b1d0-39eb-976d-b083f98c28c1",
+    "title": "Clocking out: Modeling phage-induced lysis of Escherichia coli",
+    "authors": [
+      {
+        "first_name": "Gillian L.",
+        "last_name": "Ryan"
+      },
+      {
+        "first_name": "Andrew D.",
+        "last_name": "Rutenberg"
+      }
+    ],
+    "abstract": "Phage \u03bb lyses the host Escherichia coli at a precisely scheduled time after induction. Lysis timing is determined by the action of phage holins, which are small proteins that induce hole formation in the bacterium's cytoplasmic membrane. We present a two-stage nucleation model of lysis timing, with the nucleation of condensed holin rafts on the inner membrane followed by the nucleation of a hole within those rafts. The nucleation of holin rafts accounts for most of the delay of lysis after induction. Our simulations of this model recover the accurate lysis timing seen experimentally and show that the timing accuracy is optimal. An enhanced holin-holin interaction is needed in our model to recover experimental lysis delays after the application of membrane poison, and such early triggering of lysis is possible only after the inner membrane is supersaturated with holin. Antiholin reduces the delay between membrane depolarization and lysis and leads to an earlier time after which triggered lysis is possible. Copyright \u00a9 2007, American Society for Microbiology. All Rights Reserved.",
+    "year": 2007,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "b134a8c0-a92e-3386-9298-de6e78c093cc",
+    "title": "An introduction to the hydrodynamics of swimming microorganisms",
+    "authors": [
+      {
+        "first_name": "J. M.",
+        "last_name": "Yeomans"
+      },
+      {
+        "first_name": "D. O.",
+        "last_name": "Pushkin"
+      },
+      {
+        "first_name": "H.",
+        "last_name": "Shum"
+      }
+    ],
+    "abstract": "This manuscript is a summary of a set of lectures given at the Geilo School 2013 Soft Matter Confinement: from Biology to Physics. It aims to provide an introduction to the hydrodynamics that underlies the way in which microorganisms, such as bacteria and algae, and fabricated microswimmers, swim. We focus on two features peculiar to bacterial swimming: the Scallop theorem and the dipolar nature of the far flow field. We discuss the consequences of these to the velocity field of a swimmer suspension and to the motion of passive tracers as a bacterium swims past.",
+    "year": 2014,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "49906ee2-f416-33c7-8b31-16e3556dc803",
+    "title": "Mammalian reproductive tract mucins",
+    "authors": [
+      {
+        "first_name": "Errin",
+        "last_name": "Lagow"
+      },
+      {
+        "first_name": "Mary M",
+        "last_name": "Desouza"
+      },
+      {
+        "first_name": "Daniel D",
+        "last_name": "Carson"
+      }
+    ],
+    "abstract": "Mucin glycoproteins are major constituents of the glycocalyx that covers mucosal epithelium. Two broad classes of mucins exist: membrane-associated and secretory. Of the secreted mucins, those with cysteine-rich regions are thought to polymerize through disulphide bonds. Among these gel-forming mucins are MUC2, MUC5AC, MUC5B and possibly MUC6. MUC7 lacks cysteine-rich domains and is thought to be secreted as a soluble monomer. Incomplete sequence information prevents classification of other mucins. Tandem repeats of amino acids rich in serine, threonine and proline are a common element in mucin core proteins, giving rise to relatively rigid, linear molecules with great potential for glycosylation. Ten distinct mucin genes have been identified in humans so far. Patterns of expression vary greatly. While MUC9, or oviductin, appears to be restricted to oviduct, the transmembrane mucin MUC1 is widely expressed. Proven functions for the different mucins are largely unknown, although potential functions are addressed in this review. Genetic and protein sequence information and expression profiles are also summarized, followed by a description of mucin assembly. Special attention is given to mucin expression in male and female reproductive tracts.",
+    "year": 1999,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "45466827-48c4-3680-bf7b-f7e5d3e8a3b2",
+    "title": "Life at low Reynolds number",
+    "authors": [
+      {
+        "first_name": "E. M.",
+        "last_name": "Purcell"
+      }
+    ],
+    "abstract": "Editor's note: This is a reprint (slightly edited) of a paper of the same title that appeared in the book Physics and Our World: A Symposium in Honor of Victor F. Weisskopf, published by the American Institute of Physics (1976). The personal tone of the original talk has been preserved in the paper, which was itself a slightly edited transcript of a tape. The figures reproduce transparencies used in the talk. The demonstration involved a tall rectangular transparent vessel of corn syrup, projected by an overhead projector turned on its side. Some essential hand waving could not be reproduced.",
+    "year": 1977,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "4d38802e-b410-3e21-ab79-1e6314745a6f",
+    "title": "Running and tumbling with E. coli in polymeric solutions",
+    "authors": [
+      {
+        "first_name": "A. E.",
+        "last_name": "Patteson"
+      },
+      {
+        "first_name": "A.",
+        "last_name": "Gopinath"
+      },
+      {
+        "first_name": "M.",
+        "last_name": "Goulian"
+      },
+      {
+        "first_name": "P. E.",
+        "last_name": "Arratia"
+      }
+    ],
+    "abstract": "Run-and-tumble motility is widely used by swimming microorganisms including numerous prokaryotic and eukaryotic organisms. Here, we experimentally investigate the run-and-tumble dynamics of the bacterium E. coli in polymeric solutions. We find that even small amounts of polymer in solution can drastically change E. coli dynamics: cells tumble less and their velocity increases, leading to an enhancement in cell translational diffusion and a sharp decline in rotational diffusion. We show that suppression of tumbling is due to fluid viscosity while the enhancement in swimming speed is mainly due to fluid elasticity. Visualization of single fluorescently labeled DNA polymers reveals that the flow generated by individual E. coli is sufficiently strong to stretch polymer molecules and induce elastic stresses in the fluid, which in turn can act on the cell in such a way to enhance its transport. Our results show that the transport and spread of chemotactic cells can be independently modified and controlled by the fluid material properties.",
+    "year": 2015,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "7ea063c1-5ad0-387e-b293-fae89dedb65d",
+    "title": "General rights Small, wet & rational Individual based zooplankton ecology",
+    "authors": [
+      {
+        "first_name": "Andre",
+        "last_name": "Visser"
+      }
+    ],
+    "abstract": "No abstract found",
+    "year": 2017,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "474fb311-e76d-3e05-9305-5b1ca0eb2c8c",
+    "title": "The Initial Steps in Infection with Coliphage M13'",
+    "authors": [
+      {
+        "first_name": "David",
+        "last_name": "Pratt"
+      }
+    ],
+    "abstract": "Infection of Escherichia coli with the rod-shaped DNA bacteriophage Ml3 begins with an irreversible attachment of the phage to one of a very limited number of sites on the cell surface. The attachment rate is maximal in media of molar ionic strength of about 0.1. Temperature influences the rate only to the extent that it affects the rate of phage diffusion. Following attachment, the phage DNA penetrates into the cell, leaving behind over 90% of the protein. The penetration process is extremely temperature sensitive, with an energy of activation of about 25,000 Cal, can occur in less than 20 seconds at 37\", and depends on the host cell metabolism. Thus, the initial steps of infection with Ml3 fit into the general pattern known for other bacteriophages. The penetration is not analogous to the release of Ml3 phage from infected cells, where intact virus particles pass through the cell wall.",
+    "year": "",
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "1c0abdfc-362b-3627-ae17-604a7a4aede0",
+    "title": "Resistance to Co-Occurring Phages Enables Marine Synechococcus Communities To Coexist with Cyanophages Abundant in Seawatert Downloaded from",
+    "authors": [
+      {
+        "first_name": "John B",
+        "last_name": "Waterbury"
+      },
+      {
+        "first_name": "Frederica W",
+        "last_name": "Valois"
+      }
+    ],
+    "abstract": "Recent reports documenting very high viral abundances in seawater have led to increased interest in the role of viruses in aquatic environments and a resurgence of the hypothesis that viruses are significant agents of bacterial mortality. Synechococcus spp., small unicellular cyanobacteria that are important primary producers at the base of the marine food web, were used to assess this hypothesis. We isolated a diverse group of Synechococcus phages that at times reach titers of between 103 and 104 cyanophages per ml in both inshore and offshore waters. However, despite their diversity and abundance, we present evidence in support of the hypothesis that lytic phages have a negligible effect in regulating the densities of marine Synechococcus populations. Our results indicate that these bacterial communities are dominated by cells resistant to their co-occurring phages and that these viruses are maintained by scavenging on the relatively rare sensitive cells in these communities. The presence of phages in seawater has been known for some time, but they have received little attention, and knowledge of their ecology is quite limited (16). Recent observations with transmission electron microscopy (TEM) of seawater samples concentrated by either filtration or centrifugation have shown that viruses can be present at high concentrations ranging from 105 to 108 viral particles ml-1 of seawater (2, 3, 5, 6, 8, 9, 18-20, 26, 27). These observations have led to a resurgence of the hypothesis that viruses are significant agents of bacterial mortality and have generated considerable interest within the oceanographic community concerning the potential impact of viruses on trophodynam-ics at the base of the marine food web. To assess this hypothesis, we have isolated a diverse group of lytic cyanophages that infect marine Synechococ-cus spp. These unicellular cyanobacteria were chosen for this study because they are abundant in the surface waters of the world's oceans, are capable of rapid growth, and are responsible for 5 to 25% of the total oceanic primary productivity (31). In addition, they can be counted in nature specifically and accurately and there exists a large collection of axenic strains suitable as host clones for phage isolation (31). The taxonomy of unicellular cyanobacteria is still in flux. The terminology used here is described in Bergey's Manual of Systematic Bacteriology (29). Synechococcus spp. are a suprageneric group composed at present of six clusters that are equivalent to genera. Strains belonging to two of these clusters (marine cluster A and marine cluster B) have been used in this study as host clones for the isolation of marine cyanophages. Members of marine cluster A can be isolated from both open ocean and coastal waters, have phyco-erythrin as their primary light-harvesting pigment, and have elevated salt requirements for growth that reflect the chemistry of seawater. Members of marine cluster B have been * Corresponding author. t Contribution number 8241 of the Woods Hole Oceanographic Institution. isolated only from coastal waters and do not possess phyco-erythrin, but instead use phycocyanin as their primary light-harvesting pigment, and do not have elevated salt requirements for growth but are halotolerant. Titers of marine Synechococcus phages are shown to vary seasonally, and at times they reach population densities between 103 and 104 cyanophages per ml in both inshore and offshore waters. However, despite their diversity and abundance , we present compelling evidence that cyanophages are not significant agents of Synechococcus mortality and have a negligible effect in regulating the densities of marine Syn-echococcus populations. Instead, our results indicate that Synechococcus communities are dominated by cells resistant to their co-occurring phages and that these cyanophages are maintained by infecting the relatively rare sensitive cells in these communities. Our findings agree with studies that have examined the dynamics of virulent coliphages and Escherichia coli in chemostats and with mathematical models (7, 11-13) and show that field populations of Synecho-coccus spp. and their phages follow patterns predicted from these laboratory studies. MATERIALS AND METHODS Cultures. The 20 cyanobacteria used in this study came from two culture collections. Strains preceded by WH came from the Woods Hole Collection of Cyanobacteria (Biology Department, Woods Hole Oceanographic Institution), and strains preceded by PCC came from the Pasteur Collection of Cyanobacteria (Unite de Physiologie Microbienne, Insti-tut Pasteur, Paris, France). Isolation data and strain properties are presented for the Woods Hole strains in reference 31 and the Pasteur strains in reference 22. Stock cultures of cyanobacteria. Medium SN (31, 32) and medium BG11 (21) were used for the growth of marine and freshwater cyanobacteria, respectively. Cultures were incu-bated at 23\u00b0C in constant light (20 to 30 microeinsteins m-2 s-1) with Vitalux fluorescent lamps (Luxor Light Products, Lindhurst, N.J.) (32).",
+    "year": 1993,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "f3970747-e1ce-36f5-9297-867f65cdbdd4",
+    "title": "The Adsorption of ColiphageiLambda to its Host : Effect of Variations in the Surface Density of Receptor and in Phage-Receptor AlTmity",
+    "authors": [
+      {
+        "first_name": "Maxime",
+        "last_name": "Schwartz"
+      }
+    ],
+    "abstract": "No abstract found",
+    "year": 1976,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "4cf4616e-2849-396d-bbf1-0277604f00c5",
+    "title": "Adsorption of Bacteriophages to Adhesions Between Wall and Membrane of Escherichia coli",
+    "authors": [
+      {
+        "first_name": "M E",
+        "last_name": "Bayer"
+      }
+    ],
+    "abstract": "In plasmolyzed Escherichia coli, wall and membrane adhered to one another at 200 to 400 localized areas. This number of specialized wall areas per cell was of the same order of magnitude as the total number of bacteriophage receptors. When bacteriophages TI to T7 were adsorbed to the bacteria, they were seen to attach almost exclusively to these areas. Comparisons of the number of adsorbed phage particles observed in ultrathin sections and the expected number of phages per cell were in agreement. These results suggest a sharing of receptive areas by the various phages. Adsorption to the wall-membrane associations would permit the virus to release its nucleic acid at an area closest to the cell's protoplasmic contents. After the electron microscopic description of bacteriophage particles by Ruska (23), Luria and Anderson (17), and Luria, Delbruck, and Ander-son (19), the mode of virus adsorption to surfaces of susceptible cells could be studied successfully: Anderson (2) clearly demonstrated that bacterio-phages Ti and T5 adsorbed to their host cells with the tips of their tails. T-even bacteriophage adsorption involves the specific attachment of tail fibers to the bacterial receptor (13, 26, 32, 33), followed by changes in their contractile tail sheaths and baseplates (3, 14, 26, 27). However, the mode of attachment of other phage types, like T3 and T7, is still unknown (18). Extracts from bacterial envelopes contain receptor activity and function as competitive in-hibitors for virus attachment to bacterial host cells (6, 16, 31). Frank, Zarnitz, and Weidel (8) showed that the deoxyribonucleic acid (DNA) of bacteriophage T5 is ejected through the tip of the tail when the particles react with receptor preparations of bacterial wall extracts. After the virus is adsorbed to the receptors on the cell wall, its DNA passes into the cell (11). The binding capacities of whole bacterial cells, as well as changes in this capacity after chemical treatment, were studied by Tolmach and Puck (29). However , except for male-specific phages which adsorb to certain types of pilus (5) and a phage which adsorbs only to bacterial flagella (20), the morphology of the potential receptor sites on the wall of the bacterium has not been determined. In plasmolyzed Escherichia coli, the proto-plasmic membrane stays attached to the cell wall at numerous locations, whereas the major portion of the protoplast shrinks and retracts from the wall (unpublished data). When bacteriophages Ti to T7 are added to such plasmolyzed cells, the virus particles adsorb only to those areas at which wall and protoplasmic membrane adhere to each other. In this report, the morphological appearance of the adsorbed phages is described, and their number are quantitatively evaluated and compared to the number of phages expected. MATERIALS AND METHODS E. coli B was grown logarithmically in 10 ml of nutrient broth (1%,o tryptone, 0.5% yeast extract, 0.5%0 NaCl, 0.1% glucose; adjusted to pH 7 with 1 N NaOH) at 37 C under aeration (about 200 cc of air/min), with a generation time of 25 to 30 min, until cell counts between 5 X 107/ml and 2 X 108/ml were reached. The cells were then plasmolyzed by addition of equal volumes of nutrient medium (pH 6.8 to 7.0) containing 20 or 40(% (w/v) sucrose and kept for about 2 min at 37 C with aeration. The cells plasmolyze almost immediately in the hypertonic environment (4). For turbidimetric measurements a Klett-Summer-son photometer was used. Besides colony counts, total cell counts were obtained by using a Neubauer chamber and a Zeiss phase-contrast microscope. Bacteriophages Ti, T2, T3, T4, T5, T6, and T7 had been maintained for many years in our laboratories. Lysates were obtained in nutrient broth in which the phage titer remained stable for at least 6 months. Storage of the virus at 4 C in F medium (25) or in 3 X D (9) yielded considerable differences in stability of the various phages: whereas the plaque-forming capacity of T2 remained unaffected when the 346",
+    "year": 1968,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "54e96c0b-8b8f-3261-8897-9df28928bc18",
+    "title": "Polar flagella rotation in Vibrio parahaemolyticus confers resistance to bacteriophage infection",
+    "authors": [
+      {
+        "first_name": "Hui",
+        "last_name": "Zhang"
+      },
+      {
+        "first_name": "Lu",
+        "last_name": "Li"
+      },
+      {
+        "first_name": "Zhe",
+        "last_name": "Zhao"
+      },
+      {
+        "first_name": "Daxin",
+        "last_name": "Peng"
+      },
+      {
+        "first_name": "Xiaohui",
+        "last_name": "Zhou"
+      }
+    ],
+    "abstract": "Bacteriophage has been recognized as a novel approach to treat bacterial infectious diseases. However, phage resistance may reduce the efficacy of phage therapy. Here, we described a mechanism of bacterial resistance to phage infections. In Gram-negative enteric pathogen Vibrio parahaemolyticus, we found that polar flagella can reduce the phage infectivity. Deletion of polar flagella, but not the lateral flagella, can dramatically promote the adsorption of phage to the bacteria and enhances the phage infectivity to V. parahaemolyticus, indicating that polar flagella play an inhibitory role in the phage infection. Notably, it is the rotation, not the physical presence, of polar flagella that inhibits the phage infection of V. parahaemolyticus. Strikingly, phage dramatically reduces the virulence of V. parahaemolyticus only when polar flagella were absent both in vitro and in vivo. These results indicated that polar flagella rotation is a previously unidentified mechanism that confers bacteriophage resistance.",
+    "year": 2016,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "16237828-670d-3f11-99b1-bccaa889c8c3",
+    "title": "Characterization of Vibrio eltor Typing Phages: Properties of the Eltor Phage e4",
+    "authors": [
+      {
+        "first_name": "Bysamit",
+        "last_name": "Chattopadhyay"
+      },
+      {
+        "first_name": "Derek",
+        "last_name": "Kinchington"
+      },
+      {
+        "first_name": "Ranajit K",
+        "last_name": "Ghosh"
+      }
+    ],
+    "abstract": "No abstract found",
+    "year": 1987,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "9f9437f4-cbc3-334f-b19a-8ce9c3a7d144",
+    "title": "Characterization of Phage-Specific Transfer RNA Molecules Coded by Vibrio e&or Phage e4",
+    "authors": [
+      {
+        "first_name": "Samit",
+        "last_name": "Chaitopadhyay"
+      },
+      {
+        "first_name": "Ranajit",
+        "last_name": "Kumar Ghosh'"
+      }
+    ],
+    "abstract": "No abstract found",
+    "year": 1988,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "3d11f1ae-49f9-3464-9609-99543057df80",
+    "title": "Puck 1950",
+    "authors": [],
+    "abstract": "No abstract found",
+    "year": "",
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "9cab24bc-4693-319c-8482-273c88293f8d",
+    "title": "Isolation and Characterization of a Generalized Transducing Phage for the Marine Luminous Bacterium Vibrio Jischeri MJ-1",
+    "authors": [
+      {
+        "first_name": "R E",
+        "last_name": "U B E N Levisohn"
+      },
+      {
+        "first_name": "?",
+        "last_name": "Jay M O R E L A N D A N"
+      },
+      {
+        "first_name": "D K H",
+        "last_name": "Nealson"
+      }
+    ],
+    "abstract": "No abstract found",
+    "year": 1987,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "b49990c4-f60b-344e-9483-0be1bea28108",
+    "title": "Contrasting life strategies of viruses that infect photo- and heterotrophic bacteria, as revealed by viral tagging",
+    "authors": [
+      {
+        "first_name": "Li",
+        "last_name": "Deng"
+      },
+      {
+        "first_name": "Ann",
+        "last_name": "Gregory"
+      },
+      {
+        "first_name": "Suzan",
+        "last_name": "Yilmaz"
+      },
+      {
+        "first_name": "Bonnie T.",
+        "last_name": "Poulos"
+      },
+      {
+        "first_name": "Philip",
+        "last_name": "Hugenholtz"
+      },
+      {
+        "first_name": "Matthew B.",
+        "last_name": "Sullivan"
+      }
+    ],
+    "abstract": "Ocean viruses are ubiquitous and abundant and play important roles in global biogeochemical cycles by means of their mortality, horizontal gene transfer, and manipulation of host metabolism. However, the obstacles involved in linking viruses to their hosts in a high-throughput manner bottlenecks our ability to understand virus-host interactions in complex communities. We have developed a method called viral tagging (VT), which combines mixtures of host cells and fluorescent viruses with flow cytometry. We investigated multiple viruses which infect each of two model marine bacteria that represent the slowgrowing, photoautotrophic genus Synechococcus (Cyanobacteria) and the fast-growing, heterotrophic genus Pseudoalteromonas (Gammaproteobacteria). Overall, viral tagging results for viral infection were consistent with plaque and liquid infection assays for cyanobacterial myo-, podo- and siphoviruses and some (myo- and podoviruses) but not all (four siphoviruses) heterotrophic bacterial viruses. Virus-tagged Pseudoalteromonas organisms were proportional to the added viruses under varied infection conditions (virus-bacterium ratios), while no more than 50% of the Synechococcus organisms were virus tagged even at viral abundances that exceeded (5 to 10\u00d7) that of their hosts. Further, we found that host growth phase minimally impacts the fraction of virus-tagged Synechococcus organisms while greatly affecting phage adsorption to Pseudoalteromonas. Together these findings suggest that at least two contrasting viral life strategies exist in the oceans and that they likely reflect adaptation to their host microbes. Looking forward to the point at which the virus-tagging signature is well understood (e.g., for Synechococcus), application to natural communities should begin to provide population genomic data at the proper scale for predictively modeling two of the most abundant biological entities on Earth. \" \u00a9 2012 Deng et al.",
+    "year": 2012,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "89e74ac4-b400-3eba-8d43-750346bc3874",
+    "title": "Marine cyanophages infecting oceanic and coastal strains of Synechococcus: abundance,. morphology, cross-infectivity and growth characteristics",
+    "authors": [
+      {
+        "first_name": "Curtis A",
+        "last_name": "Suttle"
+      },
+      {
+        "first_name": "Amy M",
+        "last_name": "Chan"
+      }
+    ],
+    "abstract": "Eight different phycoerythrin-and phycocyanin-containing strains of Synechococcus spp. and 1 strain of Anacystis marina were screened against 29 natural virus communities taken from 3 locations in south Texas (USA) coastal waters, at different times of the year. In add~tion, 1 sample was screened from Peconic Bay, New York, USA. Cyanophages were detected in all samples, but the frequency with which they were detected and their abundance depended upon the strain of Synechococcus sp. that was screened. Viruses that infected red Synechococcus spp. strains (DC2, SYN 48) were particularly common and in some instances were in excess of 105 ml-l The abundances of cyanophages were weakly correlated with temperature (r2= 0.53 to 0.70), although they occurred at all of the temperatures (12 to 30.4 \"C) and salinities (18 to 70 ppt) that were screened. The 7 cyanophages that were cloned belonged to the same 3 families of viruses that have been observed to infect freshwater cyanobacteria, namely the Siphoviridae (formerly Styloviridae), Myoviridae and Podoviridae. The cyanophage clones varied in host-specificity. For example, 1 clone infected a single Synechococcus sp. strain of 12 that were tested, whereas, another infected 4 of 9 strains tested. Growth characteristics of 1 of the virus clones was determined for a single host (BCCI). Photosynthesis in BCCI was not affected until near the onset of cell lysis and the virus burst cycle was complete ca 17 h post-infection. The burst size was approximately 250 infective particles. The high abundance of cyanophages in the natural environment provides further evidence that viruses are probably important regulators of phytoplankton dynamics in marine systems.",
+    "year": "",
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "69f20a0b-563d-341e-83da-cc0404c7a325",
+    "title": "Phage therapy treatment of the coral pathogen Vibrio coralliilyticus",
+    "authors": [
+      {
+        "first_name": "Yossi",
+        "last_name": "Cohen"
+      },
+      {
+        "first_name": "F.",
+        "last_name": "Joseph Pollock"
+      },
+      {
+        "first_name": "Eugene",
+        "last_name": "Rosenberg"
+      },
+      {
+        "first_name": "David G.",
+        "last_name": "Bourne"
+      }
+    ],
+    "abstract": "Vibrio coralliilyticus is an important coral pathogen demonstrated to cause disease outbreaks worldwide. This study investigated the feasibility of applying bacteriophage therapy to treat the coral pathogen V. coralliilyticus. A specific bacteriophage for V. coralliilyticus strain P1 (LMG23696), referred to here as bacteriophage YC, was isolated from the seawater above corals at Nelly Bay, Magnetic Island, central Great Barrier Reef (GBR), the same location where the bacterium was first isolated. Bacteriophage YC was shown to be a lytic phage belonging to the Myoviridae family, with a rapid replication rate, high burst size, and high affinity to its host. By infecting its host bacterium, bacteriophage YC was able to prevent bacterial-induced photosystem inhibition in pure cultures of Symbiodinium, the photosymbiont partner of coral and a target for virulence factors produced by the bacterial pathogen. Phage therapy experiments using coral juveniles in microtiter plates as a model system revealed that bacteriophage YC was able to prevent V. coralliilyticus-induced photoinactivation and tissue lysis. These results demonstrate that bacteriophage YC has the potential to treat coral disease outbreaks caused by the bacterial pathogen V. coralliilyticus, making it a good candidate for phage therapy treatment of coral disease. \u00a9 2012 The Authors.",
+    "year": 2013,
+    "link": "",
+    "file_attached": true
+  },
+  {
+    "id": "081c3f52-552f-3a51-bcfc-f45bc5a10eef",
+    "title": "Isolation and characterization of a lytic bacteriophage (vB-PmiS-TH) and its application in combination with ampicillin against planktonic and biofilm forms of proteus mirabilis isolated from urinary tract infection",
+    "authors": [
+      {
+        "first_name": "Mahsa",
+        "last_name": "Yazdi"
+      },
+      {
+        "first_name": "Majid",
+        "last_name": "Bouzari"
+      },
+      {
+        "first_name": "Ezzat Allah",
+        "last_name": "Ghaemi"
+      }
+    ],
+    "abstract": "Proteus mirabilis is one of the most common causes of urinary tract infection (UTI), particularly in patients undergoing long-term catheterization. Phage vB-PmiS-TH was isolated from wastewater with high lytic activity against P. mirabilis (TH) isolated from UTI. The phage had rapid adsorption, a large burst size (\u223c260 PFU per infected cell), and high stability at a wide range of temperatures and pH values. As analyzed by transmission electron microscopy, phage vB-PmiS-TH had an icosahedral head of \u223c87 \u00d7 62 nm with a noncontractile tail about 137 nm in length and 11 nm in width. It belongs to the family Siphoviridae. Combination of the phage vB-PmiS-TH with ampicillin had a higher removal activity against planktonic cells of P. mirabilis (TH) than the phage or the antibiotic alone. Combination of the phage at a multiplicity of infection of 100 with a high dose of ampicillin (246 \u03bcg/mL) showed the highest biofilm removal activity after 24 h. This study demonstrates that using a combination of phage and antibiotic could be significantly more effective against planktonic and biofilm forms of P. mirabilis (TH).",
+    "year": 2018,
+    "link": "",
+    "file_attached": true
+  }
+]

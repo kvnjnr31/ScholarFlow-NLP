@@ -1,0 +1,40 @@
+
+openapi: 3.0.1
+info:
+  title: Phage Review Assistant
+  description: API for clustering and summarizing research literature.
+  version: '1.0'
+paths:
+  /upload:
+    post:
+      summary: Upload a .csv or .bib file
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                file:
+                  type: string
+                  format: binary
+      responses:
+        '200':
+          description: File upload response
+  /cluster:
+    post:
+      summary: Run clustering on uploaded data
+      responses:
+        '200':
+          description: Clustering result
+  /summarize:
+    post:
+      summary: Generate GPT-based summary for clusters
+      responses:
+        '200':
+          description: Summary text
+  /graph:
+    get:
+      summary: Return graph as JSON
+      responses:
+        '200':
+          description: Graph structure
