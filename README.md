@@ -1,6 +1,6 @@
-# LithSynthesizer
+# ScholarFlow
 
-LithSynthesizer is a modular academic research toolkit designed to help scholars collect, analyze, and summarize scientific literature. It integrates tools such as Mendeley, PyPaperBot, and litstudy for a full-spectrum literature review workflow.
+ScholarFlow is a modular academic research toolkit designed to help scholars collect, analyze, and summarize scientific literature. It integrates tools such as Mendeley, PyPaperBot, and litstudy for a full-spectrum literature review workflow.
 
 ## Features
 
