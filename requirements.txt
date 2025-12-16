@@ -1,10 +1,16 @@
+pdfplumber
+pymupdf
 pandas
 numpy
 matplotlib
-networkx
-scikit-learn
-sentence-transformers
-pypaperbot
-openai
+requests
 tqdm
 python-dotenv
+
+# Scholar & ingestion tools
+pypaperbot
+litstudy
+
+# Optional but recommended
+scikit-learn
+networkx

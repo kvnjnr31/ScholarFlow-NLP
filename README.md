@@ -16,6 +16,23 @@ ScholarFlow is a modular academic research toolkit designed to help scholars col
 1. Run `mendeley_setup.py` to authenticate and create a token
 2. Run `ingest_mendeley.py` to fetch documents and generate output files
 
+## Corpus Naming Convention
+
+All documents in curated corpora (e.g., `palawan_vector_borne/`) follow a strict naming convention to ensure consistency, readability, and compatibility with ScholarFlow+GPT ingestion.
+
+```
+lastname[_coauthor]_YEAR_primarytopic_secondarytopic.ext
+```
+
+Rules:
+- lowercase filenames only
+- underscores (`_`) as separators
+- 2–4 topical keywords maximum
+- no punctuation or stopwords in keywords
+- non-literature artifacts (e.g., meeting notes) must be explicitly labeled
+
+This directory serves as a **gold-standard seed corpus** for downstream embedding, retrieval, and automation.
+
 ## Installation
 
 ```bash
